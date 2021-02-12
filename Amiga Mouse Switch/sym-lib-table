@@ -1,5 +1,5 @@
 (sym_lib_table
   (lib (name mounting)(type Legacy)(uri $KIPRJMOD/../common/library/mounting.lib)(options "")(descr ""))
-  (lib (name sega_joypad)(type Legacy)(uri $KIPRJMOD/../common/library/sega_joypad.lib)(options "")(descr ""))
-  (lib (name cpc_idc)(type Legacy)(uri $KIPRJMOD/../common/library/cpc_idc.lib)(options "")(descr ""))
+  (lib (name 74hct4053)(type Legacy)(uri $KIPRJMOD/../common/library/74hct4053.lib)(options "")(descr ""))
+  (lib (name amiga_ports)(type Legacy)(uri $KIPRJMOD/../common/library/amiga_ports.lib)(options "")(descr ""))
 )
