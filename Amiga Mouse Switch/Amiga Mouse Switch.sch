@@ -11,7 +11,7 @@ Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 "Simple port switcher, change active device by pushing one of the buttons."
+Comment4 "Simple port switcher, change active device by pushing FIRE1/LMB."
 $EndDescr
 $Comp
 L mounting:Mounting M2
@@ -316,8 +316,6 @@ F 3 "" H 1550 4475 50  0001 C CNN
 	1    1550 4475
 	1    0    0    -1  
 $EndComp
-Text Notes 10550 7650 0    60   ~ 0
-B
 Wire Wire Line
 	1475 3725 1925 3725
 Wire Wire Line

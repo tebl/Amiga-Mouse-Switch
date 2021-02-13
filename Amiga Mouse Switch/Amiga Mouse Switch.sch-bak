@@ -11,7 +11,7 @@ Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 "Simple port switcher, change active device by pushing one of the buttons."
+Comment4 "Simple port switcher, change active device by pushing FIRE1/LMB."
 $EndDescr
 $Comp
 L mounting:Mounting M2
@@ -97,7 +97,7 @@ U 1 1 5D1420E9
 P 4225 7050
 F 0 "SW1" H 4275 7150 50  0000 L CNN
 F 1 "JOY_SEL" H 4225 6990 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 4225 7250 50  0001 C CNN
+F 2 "switch_cutout:SW_PUSH_6mm" H 4225 7250 50  0001 C CNN
 F 3 "" H 4225 7250 50  0001 C CNN
 	1    4225 7050
 	0    -1   -1   0   
@@ -108,7 +108,7 @@ U 1 1 5D1424D3
 P 3975 7050
 F 0 "SW2" H 4025 7150 50  0000 L CNN
 F 1 "MOUSE_SEL" H 3975 6990 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 3975 7250 50  0001 C CNN
+F 2 "switch_cutout:SW_PUSH_6mm" H 3975 7250 50  0001 C CNN
 F 3 "" H 3975 7250 50  0001 C CNN
 	1    3975 7050
 	0    -1   -1   0   
