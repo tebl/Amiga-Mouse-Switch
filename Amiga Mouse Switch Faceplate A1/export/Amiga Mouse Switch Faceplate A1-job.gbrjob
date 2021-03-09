@@ -7,13 +7,13 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.8)-1"
     },
-    "CreationDate":  "2021-03-09T01:49:27+01:00"
+    "CreationDate":  "2021-02-22T12:03:38+01:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
-      "Name": "Amiga Mouse Switch",
+      "Name": "Amiga Mouse Switch Faceplate A1",
       "GUID": "416d6967-6120-44d6-9f75-736520537769",
       "Revision": "rev?"
     },
@@ -32,7 +32,6 @@
       "PadToPad":  0.200,
       "PadToTrack":  0.200,
       "TrackToTrack":  0.200,
-      "MinLineWidth":  0.250,
       "TrackToRegion":  0.508,
       "RegionToRegion":  0.508
     }
@@ -40,47 +39,47 @@
   "FilesAttributes":
   [
     {
-      "Path":  "Amiga Mouse Switch-F_Cu.gtl",
+      "Path":  "Amiga Mouse Switch Faceplate A1-F_Cu.gtl",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Amiga Mouse Switch-B_Cu.gbl",
+      "Path":  "Amiga Mouse Switch Faceplate A1-B_Cu.gbl",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Amiga Mouse Switch-F_Paste.gtp",
+      "Path":  "Amiga Mouse Switch Faceplate A1-F_Paste.gtp",
       "FileFunction":  "SolderPaste,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Amiga Mouse Switch-B_Paste.gbp",
+      "Path":  "Amiga Mouse Switch Faceplate A1-B_Paste.gbp",
       "FileFunction":  "SolderPaste,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Amiga Mouse Switch-F_SilkS.gto",
+      "Path":  "Amiga Mouse Switch Faceplate A1-F_SilkS.gto",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Amiga Mouse Switch-B_SilkS.gbo",
+      "Path":  "Amiga Mouse Switch Faceplate A1-B_SilkS.gbo",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "Amiga Mouse Switch-F_Mask.gts",
+      "Path":  "Amiga Mouse Switch Faceplate A1-F_Mask.gts",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "Amiga Mouse Switch-B_Mask.gbs",
+      "Path":  "Amiga Mouse Switch Faceplate A1-B_Mask.gbs",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "Amiga Mouse Switch-Edge_Cuts.gm1",
+      "Path":  "Amiga Mouse Switch Faceplate A1-Edge_Cuts.gm1",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }

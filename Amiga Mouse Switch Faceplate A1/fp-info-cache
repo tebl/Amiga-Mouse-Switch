@@ -1,4 +1,4 @@
-19048284658464034
+19049900542681966
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83069,7 +83069,14 @@ varistor SIOV
 2
 2
 artwork
-ik_plus
+gamepad
+
+
+0
+0
+0
+artwork
+joystick
 
 
 0
@@ -83090,14 +83097,14 @@ last_ninja2
 0
 0
 artwork
-platoon
+mouse
 
 
 0
 0
 0
 artwork
-shinobi
+platoon
 
 
 0

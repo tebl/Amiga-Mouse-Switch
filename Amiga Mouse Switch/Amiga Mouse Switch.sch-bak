@@ -134,7 +134,7 @@ L Device:LED_Small D1
 U 1 1 5D146669
 P 5700 6075
 F 0 "D1" H 5650 6200 50  0000 L CNN
-F 1 "MOUSE" H 5525 5975 50  0000 L CNN
+F 1 "MOUSE" H 5575 5975 50  0000 L CNN
 F 2 "LED_THT:LED_D5.0mm" V 5700 6075 50  0001 C CNN
 F 3 "" V 5700 6075 50  0001 C CNN
 	1    5700 6075
@@ -695,7 +695,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 2475 6475 2475
 Wire Wire Line
-	4575 3325 6550 3325
+	4575 3325 4925 3325
 Wire Wire Line
 	6475 2775 6625 2775
 Wire Wire Line
@@ -770,4 +770,19 @@ Wire Wire Line
 	3825 6725 3975 6725
 Wire Wire Line
 	3525 6325 2600 6325
+Text Notes 7850 4175 0    50   ~ 0
+Need diodes to protect amiga against fire/lmb pullups.
+$Comp
+L Device:D_Small D3
+U 1 1 604A3E07
+P 5025 3325
+F 0 "D3" H 5025 3532 50  0000 C CNN
+F 1 "1n4148" H 5025 3441 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 5025 3325 50  0001 C CNN
+F 3 "~" V 5025 3325 50  0001 C CNN
+	1    5025 3325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5125 3325 6550 3325
 $EndSCHEMATC
