@@ -2,6 +2,7 @@
 The first port on the Amiga is usually dedicated to a mouse, which is why a lot of the cracker-intros added to games seem to require you to click the mouse button to actually load the game. Unfortunately, this means that in order to load a two-player game you'd have to unplug the mouse and then plug in the joystick again so that player 2 has any chance of controlling anything. Restarting the computer or starting a new game means you'll have to do the *two-cable merengue* all over again.
 
 ![Amiga Mouse Switch](https://github.com/tebl/Amiga-Mouse-Switch/raw/main/gallery/2021-03-14%2021.11.59.jpg)
+![Amiga 500](https://github.com/tebl/Amiga-Mouse-Switch/raw/main/gallery/2021-03-14%2019.07.58.jpg)
 
 The easy solution is to simply buy one of the many adapters that allows you to switch between the mouse and a joystick at the push of a button, but as I like building things I've attempted to make a new version of it - in part by just copying parts of the [C64 Joystick Switcher](https://github.com/tebl/C64-Joystick-Switcher) that in many ways is very similar. I also took some inspiration from reading the [december 1991](https://worldradiohistory.com/UK/Elektor/90s/Elektor-1991-12.pdf) article in Elektor Magazine, available online at [worldradiohistory.com](https://worldradiohistory.com/Elektor.htm).
 
