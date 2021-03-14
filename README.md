@@ -28,21 +28,23 @@ At this point you'll need to decide if you want the mouse switcher to, well - sw
 Next, solder in the IDC socket, the gap should point inwards and will match the illustration on the board itself. LEDs should also be installed to indicate the currently active port, it is recommended to tack on one of the pins first - then heating the same pin again and pushing the LED flush onto the board, ensuring that the faceplate will fit properly. Right-angle DB9 should be straight-forward as well, just slot them in place and solder - take care when soldering the anchors on the sides, heat quickly travels to the other side so don't hold your finger on any of the metal.
 
 ## 1.2> Assembling the unit
-Insert ICs into the sockets as indicated, ensuring that the indent matches the orientation on the board - plugging them in the wrong way ensures that you'll have to order some more.
+Insert ICs into the sockets as indicated, ensuring that the indent matches the orientation on the board - plugging them in the wrong way ensures that you'll have to order some more. Double-check before even considering plugging it into something, use the picture below as reference.
 
 ![Build 003](https://github.com/tebl/Amiga-Mouse-Switch/raw/main/gallery/build_003.jpg)
 
 The standard A1 faceplate can be reversed to match the look you want the unit to have, at some point in the far flung future I'll hopefully have some 1bit artwork suitable to put on it. If you bought the *M3 nylon hex kit* as suggested, you can use four of the 8mm tall standoffs on each corner of the main PCB - fix them on the bottom using M3 nuts (snip off the remaining part of the nylon screw). Place the faceplate on top, screw it into place using - well - M3 nylon screws. Use wire cutters to cut off any metal parts protruding further down than the M3 nuts, this is just so that nothing messes up your desk surface.
 
+![Build 004](https://github.com/tebl/Amiga-Mouse-Switch/raw/main/gallery/build_004.jpg)
+
 ## 1.3> Cable bits
 I've gone into extensive detail on making up the joystick cables, so for a more detailed explanation skip on over to the [C64 JoyKEY](https://github.com/tebl/C64-JoyKEY/blob/main/documentation/building.md#building-the-cables) documentation to see how I did it there. Essentially you just take a *2x5 pin IDC JTAG AVR cable* (common ebay listing description), find the end that fits nicely into the keying on the board and cut off the other. Take a female IDC flat cable DB9 connector, match up pin 1 with the red stripe on the cable and squeeze really hard with something to lock it into place on the cable. Wrap the cable over and push the strain relief on the connector.
 
-![Build 004](https://github.com/tebl/Amiga-Mouse-Switch/raw/main/gallery/build_004.jpg)
+![Build 004](https://github.com/tebl/Amiga-Mouse-Switch/raw/main/gallery/build_005.jpg)
 
 ## 1.4> Testing it out
 There isn't many viable options for testing things out without actually plugging it into something and seeing whether the thing actually works as intended. One alternative to testing on a vintage computer is using a joystick tester, but given that those don't exactly follow a defined standard - the only one I can suggest is the [Atari Joystick Tester](https://github.com/tebl/Atari-Joystick-Tester) - if it's one of those that run on a coin-cell battery, then it definitely won't work. Pushing the joystick fire button or the left mouse button will switch the active port, as long as you enabled the auto-function - if not you'll have to use the switches on the device.
 
-![Build 005](https://github.com/tebl/Amiga-Mouse-Switch/raw/main/gallery/build_005.jpg)
+![Build 005](https://github.com/tebl/Amiga-Mouse-Switch/raw/main/gallery/build_006.jpg)
 
 When testing on the Amiga, either as the first or second step,  I suggest using something like [Amiga Test Kit](https://github.com/keirf/Amiga-Stuff/releases) - ensuring that the device as well as the machine itself works as intended.
 
