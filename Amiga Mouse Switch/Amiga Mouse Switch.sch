@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Amiga Mouse/Joystick Switch"
 Date ""
-Rev "A"
+Rev "C"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -286,12 +286,12 @@ $EndComp
 $Comp
 L power:VCC #PWR011
 U 1 1 5D11F85F
-P 1625 975
-F 0 "#PWR011" H 1625 825 50  0001 C CNN
-F 1 "VCC" H 1625 1125 50  0000 C CNN
-F 2 "" H 1625 975 50  0001 C CNN
-F 3 "" H 1625 975 50  0001 C CNN
-	1    1625 975 
+P 1625 675
+F 0 "#PWR011" H 1625 525 50  0001 C CNN
+F 1 "VCC" H 1625 825 50  0000 C CNN
+F 2 "" H 1625 675 50  0001 C CNN
+F 3 "" H 1625 675 50  0001 C CNN
+	1    1625 675 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -433,17 +433,9 @@ Connection ~ 10350 5800
 Wire Wire Line
 	1475 1400 1550 1400
 Wire Wire Line
-	2500 800  1775 800 
-Wire Wire Line
 	1775 800  1775 1200
 Wire Wire Line
 	1775 1200 1475 1200
-Wire Wire Line
-	1475 3125 1825 3125
-Wire Wire Line
-	1825 3125 1825 3925
-Wire Wire Line
-	1825 3925 2500 3925
 Wire Notes Line
 	3375 7675 3375 5225
 Wire Notes Line
@@ -599,8 +591,6 @@ Wire Wire Line
 Wire Wire Line
 	1475 1600 1625 1600
 Wire Wire Line
-	1625 1600 1625 975 
-Wire Wire Line
 	1625 2900 1625 3525
 Wire Wire Line
 	1475 3525 1625 3525
@@ -608,10 +598,6 @@ Wire Wire Line
 	1475 3325 1550 3325
 Wire Wire Line
 	1550 3325 1550 3975
-Text Label 1800 800  0    50   ~ 0
-RMB
-Text Label 1850 3925 0    50   ~ 0
-FIRE2
 Text Label 3350 3225 2    50   ~ 0
 UP
 Text Label 3350 3125 2    50   ~ 0
@@ -689,8 +675,6 @@ Wire Wire Line
 Wire Wire Line
 	4575 2825 4925 2825
 Wire Wire Line
-	6475 2275 6625 2275
-Wire Wire Line
 	6475 2175 6750 2175
 Wire Wire Line
 	6475 2075 6750 2075
@@ -765,34 +749,12 @@ F 3 "~" V 5025 2825 50  0001 C CNN
 	1    5025 2825
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_Small D4
-U 1 1 605041F3
-P 2500 1750
-F 0 "D4" H 2500 1957 50  0000 C CNN
-F 1 "1n4148" H 2500 1866 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 2500 1750 50  0001 C CNN
-F 3 "~" V 2500 1750 50  0001 C CNN
-	1    2500 1750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2500 1650 2500 800 
 Wire Wire Line
 	2300 2825 2300 6800
 Connection ~ 2300 2825
 Wire Wire Line
 	2600 3725 2600 6400
 Connection ~ 2600 3725
-Wire Wire Line
-	2500 1850 2500 3925
-Wire Wire Line
-	2500 3925 2500 4725
-Wire Wire Line
-	2500 4725 6625 4725
-Connection ~ 2500 3925
-Wire Wire Line
-	6625 2275 6625 4725
 NoConn ~ 4575 3425
 Wire Wire Line
 	3975 4250 2850 4250
@@ -808,4 +770,42 @@ Wire Wire Line
 Connection ~ 3300 3525
 Wire Wire Line
 	3300 3525 3375 3525
+NoConn ~ 1475 3125
+Text Notes 7500 2275 0    50   ~ 0
+Revision C:\nRevision B had issues with some machines not having a working\nRMB, diode D4 was removed along with pin 9 of the joystick port.\nThe latter part as a preventative measure as a mouse includes\ncomponents that may or may not like having its outputs shorted\nout via the joystick.
+Text GLabel 1925 800  2    60   Output ~ 0
+RMB
+Text GLabel 6875 2275 2    60   Input ~ 0
+RMB
+Wire Wire Line
+	6475 2275 6875 2275
+Wire Wire Line
+	1925 800  1775 800 
+Text GLabel 1925 675  2    60   Output ~ 0
+SCROLL
+Wire Wire Line
+	1475 1100 1700 1100
+Wire Wire Line
+	1700 1100 1700 675 
+Wire Wire Line
+	1700 675  1925 675 
+Wire Wire Line
+	1625 675  1625 1600
+Text GLabel 4925 2375 0    60   Input ~ 0
+SCROLL
+$Comp
+L Jumper:SolderJumper_2_Bridged JP3
+U 1 1 655EC11E
+P 5150 2375
+F 0 "JP3" H 5150 2580 50  0000 C CNN
+F 1 "EN_SCROLL" H 5150 2489 50  0000 C CNN
+F 2 "solder_bridge:bridge" H 5150 2375 50  0001 C CNN
+F 3 "~" H 5150 2375 50  0001 C CNN
+	1    5150 2375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4925 2375 5000 2375
+Wire Wire Line
+	5300 2375 5550 2375
 $EndSCHEMATC

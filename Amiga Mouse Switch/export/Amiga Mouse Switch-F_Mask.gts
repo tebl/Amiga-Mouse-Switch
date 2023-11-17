@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(5.1.8)-1*%
-%TF.CreationDate,2021-03-24T00:00:35+01:00*%
+%TF.CreationDate,2023-11-17T23:24:05+01:00*%
 %TF.ProjectId,Amiga Mouse Switch,416d6967-6120-44d6-9f75-736520537769,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.8)-1) date 2021-03-24 00:00:35*
+G04 Created by KiCad (PCBNEW (5.1.8)-1) date 2023-11-17 23:24:05*
 %MOMM*%
 %LPD*%
 G01*
@@ -209,10 +209,9 @@ X122555000Y-84455000D03*
 D19*
 X122555000Y-76835000D03*
 %TD*%
-D18*
-%TO.C,D4*%
-X169545000Y-98044000D03*
-D19*
-X161925000Y-98044000D03*
+D10*
+%TO.C,JP3*%
+X168275000Y-83185000D03*
+X166370000Y-83185000D03*
 %TD*%
 M02*

@@ -20,7 +20,7 @@ Building the unit assumes you have at least minor experience soldering things to
 ![Build 001](https://github.com/tebl/Amiga-Mouse-Switch/raw/main/gallery/build_001.jpg)
 
 ## 1.1> Soldering it together
-The construction of this unit should be straight-forward, observe the direction of the diodes and solder those in - matching the stripes on the board to the ones on the diodes themselves. The do the resistors and capacitors, followed by the DIP sockets (skipping these is strictly not recommended unless you know the chips came from reliable sources).
+The construction of this unit should be straight-forward, observe the direction of the diodes and solder those in - matching the stripes on the board to the ones on the diodes themselves. Then do the resistors and capacitors, followed by the DIP sockets (skipping these is strictly not recommended unless you know the chips came from reliable sources).
 
 ![Build 002](https://github.com/tebl/Amiga-Mouse-Switch/raw/main/gallery/build_002.jpg)
 
@@ -43,11 +43,14 @@ I've gone into extensive detail on making up the joystick cables, so for a more 
 ![Build 004](https://github.com/tebl/Amiga-Mouse-Switch/raw/main/gallery/build_005.jpg)
 
 ## 1.4> Testing it out
-There isn't many viable options for testing things out without actually plugging it into something and seeing whether the thing actually works as intended. One alternative to testing on a vintage computer is using a joystick tester, but given that those don't exactly follow a defined standard - the only one I can suggest is the [Atari Joystick Tester](https://github.com/tebl/Atari-Joystick-Tester) - if it's one of those that run on a coin-cell battery, then it definitely won't work. Pushing the joystick fire button or the left mouse button will switch the active port, as long as you enabled the auto-function - if not you'll have to use the switches on the device.
+There isn't many viable options for testing things out without actually plugging it into something and seeing whether the thing actually works as intended. One alternative to testing on a vintage computer is using a joystick tester, but given that those don't exactly follow a defined standard - the only one I can suggest is the [Atari Joystick Tester](https://github.com/tebl/Atari-Joystick-Tester) - if it's one of those that run on a coin-cell battery, then it definitely won't work. Pushing the joystick fire button or the left mouse button will switch the active port, as long as you enabled the auto-function - if not you'll have to use the switches on the device itself.
 
 ![Build 005](https://github.com/tebl/Amiga-Mouse-Switch/raw/main/gallery/build_006.jpg)
 
 When testing on the Amiga, either as the first or second step,  I suggest using something like [Amiga Test Kit](https://github.com/keirf/Amiga-Stuff/releases) - ensuring that the device as well as the machine itself works as intended.
+
+## 1.5> Errata
+Some users have reported problems using the right mouse button with the current design, so I had a little think about it and simplified it a bit for revision C. Essentially the option to have a second joystick button that isn't generally used, for earlier revision B the changes would be to remove and short across the space marked for diode "D4", then cut the line going to pin 9 on the joystick port. In order to add scroll-wheel support, a link is added from mouse pin 5 to output pin 5.
 
 # 2> Schematic
 The supplied KiCad files should be sufficient as both a schematic and as a  starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](documentation/schematic) and this is what you'll need to print and work your way through this things don't work as expected after assembly.
