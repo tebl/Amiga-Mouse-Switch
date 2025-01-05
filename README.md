@@ -11,6 +11,7 @@ The easy solution is to simply buy one of the many adapters that allows you to s
   - [1.2> Assembling the unit](#12-assembling-the-unit)
   - [1.3> Cable bits](#13-cable-bits)
   - [1.4> Testing it out](#14-testing-it-out)
+  - [1.5> Errata](#15-errata)
 - [2> Schematic](#2-schematic)
 - [3> BOM](#3-bom)
 
@@ -75,8 +76,10 @@ When testing on the Amiga, either as the first or second step,  I suggest using 
 ## 1.5> Errata
 Some users have reported problems using the right mouse button with the current design, so I had a little think about it and simplified it a bit for revision C. Essentially the option to have a second joystick button that isn't generally used, for earlier revision B the changes would be to remove and short across the space marked with "D4", then cut the line going to pin 9 on the joystick port. In order to add scroll-wheel support, a link was added that links mouse pin 5 to output pin 5.
 
+
 # 2> Schematic
 The supplied KiCad files should be sufficient as both a schematic and as a  starting point for ordering PCBs (basically you could just zip the contents of the export folder and upload that on a fabrication site), the schematic is also available in [PDF-format](documentation/schematic) and this is what you'll need to print and work your way through this things don't work as expected after assembly.
+
 
 # 3> BOM
 Most parts should be easy to get a hold of from your favourite local electronic component shop, but given that I don't have access to such shops where I live so everything was based on whatever I could get cheapest from eBay/AliExpress (free shipping, but plan on waiting 3-4 weeks for delivery). Values listed in parenthesis are for features that are not required for basic functionality, but you should read through the section on [building the unit](#1-building-the-unit) to ensure that you're not missing out. As always, plan on adding DIP-sockets in addition to the chips listed.
